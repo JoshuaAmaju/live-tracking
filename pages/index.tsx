@@ -173,9 +173,9 @@ export default function Home({ api_key }: { api_key: string }) {
 
       // const t = encodeURIComponent(time);
 
-      console.log(time);
+      // console.log(time);
 
-      fetch("http://35.208.196.20:8000/webhook/v1/location", {
+      fetch("http://192.168.153.20:8000/webhook/v1/location", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${auth_token}`,
